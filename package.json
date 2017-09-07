@@ -1,0 +1,35 @@
+{
+  "name": "vcms-cli",
+  "version": "1.0.0",
+  "description": "Set of tools to ease the vcms project development process",
+  "main": "src/vcms-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdegenne/vcms-cli.git"
+  },
+  "keywords": [
+    "polymer",
+    "vcms",
+    "cli",
+    "command",
+    "line"
+  ],
+  "bin": {
+    "vcms": "src/vcms-cli.js"
+  },
+  "author": "Valentin Degenne",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/vdegenne/vcms-cli/issues"
+  },
+  "homepage": "https://github.com/vdegenne/vcms-cli#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "command-line-args": "^4.0.7",
+    "command-line-commands": "^2.0.1",
+    "mkdirp": "^0.5.1"
+  }
+}
